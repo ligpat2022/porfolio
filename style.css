@@ -1,0 +1,40 @@
+body {
+    background-color: azure;
+    row-gap: 20px;
+
+}
+
+header{  background-color: rgb(176, 113, 36) ;
+    text-align: center;
+    color:rgb(255, 245, 220);
+    font-size : 24px; /*taille des caracteres */
+    font-family : Georgia, 'Times New Roman', Times, serif;
+    padding : 20px;
+    text-transform :uppercase ;
+      }
+
+nav{  background-color: rgb(205, 33, 67);
+    overflow: hidden;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    height: 30px;
+    padding-top: 10px;
+    
+}
+nav a{
+    
+    text-shadow: 2mm;
+    text-decoration: none;
+    
+}
+
+footer{  position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(176, 98, 43);
+    text-align: center;
+    color:cornsilk;
+    font-size: 14px;
+    padding: 15px;
+}
